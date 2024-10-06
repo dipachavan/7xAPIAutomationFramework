@@ -1,0 +1,17 @@
+ITestContext
+	-It will help to share data between 2 test cases/methods/scripts.
+	-Its and interface from TestNG which extends IAttributes
+
+IRetryAnalyzer
+    -Its an interface from TestNG.
+
+
+ITestResult
+    -Its an interface from TestNG.
+
+IAnnotationTransformer
+     -Its an interface from TestNG.
+
+
+RetryAnalyzer and RetryListener:
+-RetryAnalyzer will analyze the failure and then RetryListener will listen it and rerun failed TCs.
